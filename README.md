@@ -14,6 +14,8 @@ Simple Twitter bot using Selenium which likes tweets and retweets.
 #### or
 ```python app.py```
 
+
+
 ## Contribution
 
 ### Go through the issues. If you find one do open it up.
