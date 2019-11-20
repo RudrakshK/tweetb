@@ -51,9 +51,15 @@ class Twitterbot:
                     time.sleep(10)
 
 
-    
-ed = Twitterbot('username','password')
+username = input('Enter Username : ')
+password = input('Enter Password : ')
+print('\n'+'Username : '+username+'\n'+'Password : '+password+'\n')
+
+ed = Twitterbot(username,password)
 
 ed.login()
 
-ed.like_tweet('opensource')
+hashtag = input('Enter the search or the hashtag : ')
+print('\n'+'To be searched :'+hashtag)
+
+ed.like_tweet(hashtag)
