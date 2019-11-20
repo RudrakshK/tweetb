@@ -8,8 +8,6 @@ Simple Twitter bot using Selenium which likes tweets and retweets.
 ```pip install selenium```
 
 ### Run the bot using
-```python3 app.py```
-#### or
 ```python app.py```
 
 ## Contribution
