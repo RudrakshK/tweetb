@@ -43,7 +43,7 @@ class Twitterbot:
                 try:
                     #bot.find_element_by_class_name('HeartAnimation').click()   #this thing doesn't work Don't know why
                     time.sleep(1)
-                    bot.find_element_by_xpath('data-original-title="Like"]').click()  #this thing is wrong 
+                    bot.find_element_by_xpath('//a[@data-original-title="Like"]').click()  #this thing is wrong 
                     time.sleep(10)
                 except Exception as ex:
                     time.sleep(10)
