@@ -30,7 +30,7 @@ class Twitterbot:
         bot.get('https://twitter.com/search?q='+hashtag+'&src=typd&lang=en')
         time.sleep(3)
         for i in range(1,3):
-            bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
+            bot.execute_script('window.scrollTo(0,document.body.scrollHeight)') # JS line here for scrolling the page
             time.sleep(4)
             tweetLinks = [i.get_attribute('href')
 
